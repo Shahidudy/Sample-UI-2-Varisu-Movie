@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui2/widgets/project_duration.dart';
 import 'package:ui2/widgets/top_part.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -13,8 +14,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: const [
+        children: [
           TopPart(),
+          ProjectDuration(),
         ],
       ),
     );
