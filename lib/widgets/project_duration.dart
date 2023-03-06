@@ -5,15 +5,15 @@ class ProjectDuration extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 40,
       width: double.infinity,
       // color: Colors.lightGreen,
       child: Row(
         children: [
-          Padding(
-            padding: const EdgeInsets.only(left: 10),
-            child: Container(
+          const Padding(
+            padding: EdgeInsets.only(left: 10),
+            child: SizedBox(
               // height: 10,
               width: 30,
               child: Icon(
@@ -22,12 +22,12 @@ class ProjectDuration extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             width: 5,
           ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
+            children: const [
               SizedBox(
                 height: 5,
               ),
